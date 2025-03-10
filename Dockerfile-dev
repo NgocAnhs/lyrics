@@ -1,0 +1,8 @@
+FROM ruby:3.2.3
+
+WORKDIR /usr/src/app
+
+RUN apt-get update -qq && apt-get install -y libpq-dev
+
+COPY . .
+RUN bundle install
