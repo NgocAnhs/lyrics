@@ -13,5 +13,5 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   root 'songs#index'
-  resources :songs, only: :index
+  resources :songs, only: %i[index show]
 end

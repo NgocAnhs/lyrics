@@ -1,1 +1,3 @@
-h1.text-red-500.text-2xl Font màu đỏ
+ul
+  - @songs.each do |song|
+    li = link_to song.name, song_path(song)

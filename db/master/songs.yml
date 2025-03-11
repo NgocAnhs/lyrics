@@ -1,0 +1,4 @@
+- name: Hoả Ca
+  lyrics_filename: db/master/lyrics/hoa-ca.txt
+- name: Trống Cơm
+  lyrics_filename: db/master/lyrics/trong-com.txt
