@@ -44,7 +44,7 @@ gem "thruster", require: false
 
 gem 'slim'
 
-gem "tailwindcss-rails", "~> 4.2"
+gem "tailwindcss-rails", "~> 4.4"
 gem "tailwindcss-ruby", "~> 4.0"
 
 
